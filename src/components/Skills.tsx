@@ -12,7 +12,7 @@ export const Skills = () => {
               <li>• Excel</li>
               <li>• Power BI</li>
               <li>• Python</li>
-              <li>• MySQL</li>
+              <li>• SSIS</li>
             </ul>
           </div>
           
