@@ -16,8 +16,13 @@ export const Education = () => {
             Specializing in competitive intelligence systems, auditing, and implementing strategies for both public and private sectors. Trained in managing information strategies and analyzing data using BI tools.
           </p>
           {/* ESEN Logo */}
-          <div className="mt-6">
-            <img src={esenLogo} alt="ESEN Logo" className="w-32 h-32 object-contain mx-auto" />
+          <div className="flex items-center mt-6">
+            <div className="mr-4">
+              <img src={esenLogo} alt="ESEN Logo" className="w-16 h-16 object-contain" />
+            </div>
+            <div>
+              <p className="text-gray-600">ESEN Logo</p>
+            </div>
           </div>
         </div>
         
@@ -29,8 +34,13 @@ export const Education = () => {
             Completed a program in Business Computing, focusing on digital transformation and managing E-Business projects. Gained advanced knowledge in IT and management, with experience in both web front and back-end development.
           </p>
           {/* ESEN Logo */}
-          <div className="mt-6">
-            <img src={esenLogo} alt="ESEN Logo" className="w-32 h-32 object-contain mx-auto" />
+          <div className="flex items-center mt-6">
+            <div className="mr-4">
+              <img src={esenLogo} alt="ESEN Logo" className="w-16 h-16 object-contain" />
+            </div>
+            <div>
+              <p className="text-gray-600">ESEN Logo</p>
+            </div>
           </div>
         </div>
       </div>
