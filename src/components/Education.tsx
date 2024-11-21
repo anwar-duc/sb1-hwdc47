@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Import ESEN logo
-import esenLogo from '../assets/esen.png'; // Make sure this path is correct
+import esenLogo from '../assets/esen.png';
 
 export const Education = () => {
   return (
