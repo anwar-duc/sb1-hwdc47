@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Import logos
-import esenLogo from '../assets/esen.png'; // Your ESEN logo
+import esenLogo from '../assets/esen.png'; // Path to your ESEN logo
 
 export const Education = () => {
   return (
