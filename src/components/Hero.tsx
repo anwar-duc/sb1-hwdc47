@@ -1,6 +1,7 @@
 import React from 'react';
-import { Linkedin, Mail, Download } from 'lucide-react'; // Added Download icon
+import { Linkedin, Mail, Download } from 'lucide-react';
 import profilePic from '../assets/profile.jpg';
+import cvFile from '../assets/cv.pdf'; // Import the CV file
 
 export const Hero = () => {
   return (
@@ -35,7 +36,7 @@ export const Hero = () => {
                 LinkedIn
               </a>
               <a
-                href="/src/assets/cv.pdf"
+                href={cvFile} // Use the imported file path
                 download="Adem_Bouteraa_CV.pdf"
                 className="flex items-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
               >
