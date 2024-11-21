@@ -15,8 +15,10 @@ export const Experience = () => {
           <h3 className="text-xl font-bold mb-4">Institut El Amouri</h3>
           <p className="text-gray-600 mb-4">Field Supervisor / Banking Control | 2021 - 2022</p>
           <div className="mb-4 flex justify-center items-center">
-            {/* Add logo image for Institut El Amouri with background color */}
-            <img src={elamouriLogo} alt="Institut El Amouri Logo" className="w-20 h-20 p-3 bg-gray-200 rounded-full" />
+            {/* Logo with background */}
+            <div className="w-24 h-24 bg-gray-200 rounded-full flex justify-center items-center">
+              <img src={elamouriLogo} alt="Institut El Amouri Logo" className="w-16 h-16 object-contain" />
+            </div>
           </div>
           <ul className="space-y-2 text-gray-700">
             <li>• Independent supervision of banking operations to ensure compliance and efficiency</li>
@@ -29,8 +31,10 @@ export const Experience = () => {
           <h3 className="text-xl font-bold mb-4">ISIE</h3>
           <p className="text-gray-600 mb-4">Administrative Team Lead & Data Analyst | 2023</p>
           <div className="mb-4 flex justify-center items-center">
-            {/* Add logo image for ISIE with background color */}
-            <img src={isieLogo} alt="ISIE Logo" className="w-20 h-20 p-3 bg-gray-200 rounded-full" />
+            {/* Logo with background */}
+            <div className="w-24 h-24 bg-gray-200 rounded-full flex justify-center items-center">
+              <img src={isieLogo} alt="ISIE Logo" className="w-16 h-16 object-contain" />
+            </div>
           </div>
           <ul className="space-y-2 text-gray-700">
             <li>• Led 3-person team in administrative strategy and task management</li>
@@ -43,8 +47,10 @@ export const Experience = () => {
           <h3 className="text-xl font-bold mb-4">DecliTech</h3>
           <p className="text-gray-600 mb-4">Trainer - Hard & Soft Skills | 2023</p>
           <div className="mb-4 flex justify-center items-center">
-            {/* Add logo image for Declitech with background color */}
-            <img src={dclitechLogo} alt="DecliTech Logo" className="w-20 h-20 p-3 bg-gray-200 rounded-full" />
+            {/* Logo with background */}
+            <div className="w-24 h-24 bg-gray-200 rounded-full flex justify-center items-center">
+              <img src={dclitechLogo} alt="DecliTech Logo" className="w-16 h-16 object-contain" />
+            </div>
           </div>
           <ul className="space-y-2 text-gray-700">
             <li>• Trained youth aged 7 to 17 on soft and hard skills like Python, AI, etc.</li>
