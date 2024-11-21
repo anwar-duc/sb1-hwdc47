@@ -8,7 +8,7 @@ export const Education = () => {
     <div className="container mx-auto px-6 py-20">
       <h2 className="text-3xl font-bold mb-12 text-center">Education</h2>
       <div className="grid md:grid-cols-2 gap-8">
-        {/* First Education: Higher School of Digital Economy */}
+        {/* First Education: Higher School of Digital Economy (Master's) */}
         <div className="bg-white p-8 rounded-lg shadow-md animate-fade-in-slide-up">
           <h3 className="text-xl font-bold mb-4">Higher School of Digital Economy, University of Manouba</h3>
           <p className="text-gray-600 mb-4">Master's Degree in Monitoring and Competitive Intelligence | 2024 - Current</p>
@@ -27,7 +27,7 @@ export const Education = () => {
           </div>
         </div>
         
-        {/* Second Education: Higher School of Digital Economy */}
+        {/* Second Education: Higher School of Digital Economy (Bachelor's) */}
         <div className="bg-white p-8 rounded-lg shadow-md animate-fade-in-slide-up">
           <h3 className="text-xl font-bold mb-4">Higher School of Digital Economy, University of Manouba</h3>
           <p className="text-gray-600 mb-4">Bachelor’s Degree in E-Business | 2020 - 2024</p>
@@ -49,5 +49,4 @@ export const Education = () => {
     </div>
   );
 };
-
 
