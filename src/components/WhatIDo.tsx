@@ -30,15 +30,16 @@ export const WhatIDo = () => {
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105">
-          {/* Software Development Icon */}
-          <div className="text-4xl text-purple-600 mb-4 mx-auto">💻</div>
-          <h3 className="font-semibold mb-4">Software Development</h3>
+          {/* Consulting / Project Management Icon */}
+          <div className="text-4xl text-purple-600 mb-4 mx-auto">🧑‍💼</div>
+          <h3 className="font-semibold mb-4">IT Consulting & Project Management</h3>
           <p className="text-gray-600">
-            Writing clean, efficient code for web applications and APIs, ensuring a smooth user experience.
+            Managing IT projects and leading teams to deliver results. Expertise in strategic planning, project management, and providing consultation for tech-driven solutions.
           </p>
         </div>
       </div>
     </div>
   );
 };
+
 
