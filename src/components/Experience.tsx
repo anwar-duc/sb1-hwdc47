@@ -55,7 +55,7 @@ export const Experience = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-1">DecliTech</h3>
-              <p className="text-gray-600">Trainer - Hard & Soft Skills | 2023</p>
+              <p className="text-gray-600">Trainer - Hard & Soft Skills | 2024</p>
             </div>
           </div>
           <ul className="space-y-2 text-gray-700">
