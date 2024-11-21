@@ -5,6 +5,7 @@ import { Skills } from './components/Skills';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { WhatIDo } from './components/WhatIDo';  // Import WhatIDo component
+import { Education } from './components/Education';  // Import Education component
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <WhatIDo />  {/* Add WhatIDo component here */}
       <Experience />
+      <Education />  {/* Add Education section here */}
       <Skills />
       <Contact />
       <Footer />
@@ -20,3 +22,4 @@ function App() {
 }
 
 export default App;
+
