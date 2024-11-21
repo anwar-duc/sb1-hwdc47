@@ -3,7 +3,7 @@ import React from 'react';
 // Import images from the src/assets folder
 import elamouriLogo from '../assets/elamouri.png';
 import isieLogo from '../assets/isie.png';
-import dclitechLogo from '../assets/dclitech.png';
+import dclitechLogo from '../assets/dclitech.png'; // Ensure this path is correct
 
 export const Experience = () => {
   return (
@@ -55,5 +55,6 @@ export const Experience = () => {
     </div>
   );
 };
+
 
 
