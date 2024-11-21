@@ -10,35 +10,27 @@ export const Education = () => {
       <div className="grid md:grid-cols-2 gap-8">
         {/* First Education: Higher School of Digital Economy */}
         <div className="bg-white p-8 rounded-lg shadow-md animate-fade-in-slide-up">
-          <div className="flex items-center mb-4">
-            {/* Logo */}
-            <div className="mr-4">
-              <img src={esenLogo} alt="ESEN Logo" className="w-16 h-16 object-contain" />
-            </div>
-            <div>
-              <h3 className="text-xl font-bold mb-4">Higher School of Digital Economy, University of Manouba</h3>
-              <p className="text-gray-600 mb-4">Master's Degree in Monitoring and Competitive Intelligence | 2024 - Current</p>
-              <p className="text-gray-700">
-                Specializing in competitive intelligence systems, auditing, and implementing strategies for both public and private sectors. Trained in managing information strategies and analyzing data using BI tools.
-              </p>
-            </div>
+          <h3 className="text-xl font-bold mb-4">Higher School of Digital Economy, University of Manouba</h3>
+          <p className="text-gray-600 mb-4">Master's Degree in Monitoring and Competitive Intelligence | 2024 - Current</p>
+          <p className="text-gray-700">
+            Specializing in competitive intelligence systems, auditing, and implementing strategies for both public and private sectors. Trained in managing information strategies and analyzing data using BI tools.
+          </p>
+          {/* ESEN Logo */}
+          <div className="mt-6">
+            <img src={esenLogo} alt="ESEN Logo" className="w-32 h-32 object-contain mx-auto" />
           </div>
         </div>
         
         {/* Second Education: Higher School of Digital Economy */}
         <div className="bg-white p-8 rounded-lg shadow-md animate-fade-in-slide-up">
-          <div className="flex items-center mb-4">
-            {/* Logo */}
-            <div className="mr-4">
-              <img src={esenLogo} alt="ESEN Logo" className="w-16 h-16 object-contain" />
-            </div>
-            <div>
-              <h3 className="text-xl font-bold mb-4">Higher School of Digital Economy, University of Manouba</h3>
-              <p className="text-gray-600 mb-4">Bachelor’s Degree in E-Business | 2020 - 2024</p>
-              <p className="text-gray-700">
-                Completed a program in Business Computing, focusing on digital transformation and managing E-Business projects. Gained advanced knowledge in IT and management, with experience in both web front and back-end development.
-              </p>
-            </div>
+          <h3 className="text-xl font-bold mb-4">Higher School of Digital Economy, University of Manouba</h3>
+          <p className="text-gray-600 mb-4">Bachelor’s Degree in E-Business | 2020 - 2024</p>
+          <p className="text-gray-700">
+            Completed a program in Business Computing, focusing on digital transformation and managing E-Business projects. Gained advanced knowledge in IT and management, with experience in both web front and back-end development.
+          </p>
+          {/* ESEN Logo */}
+          <div className="mt-6">
+            <img src={esenLogo} alt="ESEN Logo" className="w-32 h-32 object-contain mx-auto" />
           </div>
         </div>
       </div>
