@@ -1,7 +1,7 @@
 import React from 'react';
 
-// Import logos
-import esenLogo from '../assets/esen.png'; // Path to your ESEN logo
+// Import ESEN logo
+import esenLogo from '../assets/esen.png'; // Make sure this path is correct
 
 export const Education = () => {
   return (
@@ -15,6 +15,7 @@ export const Education = () => {
           <p className="text-gray-700">
             Specializing in competitive intelligence systems, auditing, and implementing strategies for both public and private sectors. Trained in managing information strategies and analyzing data using BI tools.
           </p>
+          
           {/* ESEN Logo */}
           <div className="flex items-center mt-6">
             <div className="mr-4">
@@ -33,6 +34,7 @@ export const Education = () => {
           <p className="text-gray-700">
             Completed a program in Business Computing, focusing on digital transformation and managing E-Business projects. Gained advanced knowledge in IT and management, with experience in both web front and back-end development.
           </p>
+          
           {/* ESEN Logo */}
           <div className="flex items-center mt-6">
             <div className="mr-4">
@@ -47,4 +49,5 @@ export const Education = () => {
     </div>
   );
 };
+
 
