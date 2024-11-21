@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, Mail } from 'lucide-react';
+import { Linkedin, Mail, Download } from 'lucide-react'; // Added Download icon
 import profilePic from '../assets/profile.jpg';
 
 export const Hero = () => {
@@ -33,6 +33,14 @@ export const Hero = () => {
               >
                 <Linkedin className="w-5 h-5 mr-2" />
                 LinkedIn
+              </a>
+              <a
+                href="/src/assets/cv.pdf"
+                download="Adem_Bouteraa_CV.pdf"
+                className="flex items-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+              >
+                <Download className="w-5 h-5 mr-2" />
+                Download CV
               </a>
             </div>
           </div>
