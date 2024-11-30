@@ -17,7 +17,7 @@ export const Hero = () => {
             Data-driven professional passionate about leveraging business intelligence to solve complex problems and drive growth.
           </p>
           {/* Action Buttons */}
-          <div className="flex justify-center md:justify-start space-x-4">
+          <div className="flex justify-center md:justify-start space-x-4 z-10">
             <a
               href="mailto:adem.bouteraa@esen.tn"
               className="flex items-center bg-white text-blue-600 px-6 py-3 rounded-full hover:bg-blue-50 transition-all"
@@ -52,7 +52,7 @@ export const Hero = () => {
           />
         </div>
       </div>
-      <div className="absolute inset-0 bg-gradient-to-r from-black opacity-25"></div>
+      {/* Removed the overlay div */}
     </div>
   );
 };
