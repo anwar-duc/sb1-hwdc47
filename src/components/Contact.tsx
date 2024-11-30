@@ -28,8 +28,13 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="container mx-auto px-6 py-20">
-      <h2 className="text-3xl font-bold text-center mb-12 text-teal-600">Contact Me</h2> {/* Title color */}
+    <section
+      id="contact"
+      className="container mx-auto px-6 py-20 bg-white dark:bg-gray-800"
+    >
+      <h2 className="text-3xl font-bold text-center mb-12 text-teal-600 dark:text-teal-400">
+        Contact Me
+      </h2>
       <form
         onSubmit={handleSubmit}
         method="POST"
@@ -37,7 +42,10 @@ export const Contact = () => {
         className="max-w-xl mx-auto"
       >
         <div className="mb-6">
-          <label htmlFor="name" className="block text-lg font-medium">
+          <label
+            htmlFor="name"
+            className="block text-lg font-medium text-gray-700 dark:text-gray-300"
+          >
             Name
           </label>
           <input
@@ -45,11 +53,14 @@ export const Contact = () => {
             id="name"
             name="name"
             required
-            className="w-full p-3 border border-gray-300 rounded-lg"
+            className="w-full p-3 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
           />
         </div>
         <div className="mb-6">
-          <label htmlFor="email" className="block text-lg font-medium">
+          <label
+            htmlFor="email"
+            className="block text-lg font-medium text-gray-700 dark:text-gray-300"
+          >
             Email
           </label>
           <input
@@ -57,18 +68,21 @@ export const Contact = () => {
             id="email"
             name="email"
             required
-            className="w-full p-3 border border-gray-300 rounded-lg"
+            className="w-full p-3 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
           />
         </div>
         <div className="mb-6">
-          <label htmlFor="message" className="block text-lg font-medium">
+          <label
+            htmlFor="message"
+            className="block text-lg font-medium text-gray-700 dark:text-gray-300"
+          >
             Message
           </label>
           <textarea
             id="message"
             name="message"
             required
-            className="w-full p-3 border border-gray-300 rounded-lg"
+            className="w-full p-3 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
             rows="6"
           ></textarea>
         </div>
@@ -81,7 +95,7 @@ export const Contact = () => {
       </form>
 
       {formStatus && (
-        <div className="mt-6 text-center text-lg font-semibold">
+        <div className="mt-6 text-center text-lg font-semibold text-teal-600 dark:text-teal-400">
           {formStatus}
         </div>
       )}
