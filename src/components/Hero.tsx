@@ -1,24 +1,23 @@
 import React from 'react';
 import { Linkedin, Mail, Download } from 'lucide-react';
 import profilePic from '../assets/profile.jpg';
-import cvFile from '../assets/cv.pdf'; // Import the CV file
+import cvFile from '../assets/cv.pdf';
 
 export const Hero = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+    <div className="bg-gradient-to-r from-blue-600 via-purple-500 to-indigo-700 text-white">
       <div className="container mx-auto px-6 py-20">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 className="text-5xl md:text-6xl font-bold mb-4">
               Adem Bouteraa
             </h1>
-            <h2 className="text-xl md:text-2xl mb-6">
+            <h2 className="text-2xl md:text-3xl mb-6">
               Business Intelligence Professional
             </h2>
             <p className="text-lg mb-8">
-              Motivated and experienced business intelligence professional with
-              a proven track record in data systems management and using
-              business intelligence to drive growth.
+              Motivated and experienced professional driving growth through
+              data intelligence and innovative solutions.
             </p>
             <div className="flex space-x-4">
               <a
@@ -36,7 +35,7 @@ export const Hero = () => {
                 LinkedIn
               </a>
               <a
-                href={cvFile} // Use the imported file path
+                href={cvFile}
                 download="Adem_Bouteraa_CV.pdf"
                 className="flex items-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
               >
@@ -45,11 +44,11 @@ export const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="md:w-1/3">
+          <div className="md:w-1/3 relative">
             <img
               src={profilePic}
               alt="Adem Bouteraa"
-              className="rounded-full w-64 h-64 object-cover shadow-xl"
+              className="rounded-full w-64 h-64 object-cover shadow-xl border-4 border-white"
             />
           </div>
         </div>
@@ -57,4 +56,5 @@ export const Hero = () => {
     </div>
   );
 };
+
 
