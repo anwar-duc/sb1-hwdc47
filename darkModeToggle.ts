@@ -1,6 +1,5 @@
 // Function to toggle dark mode
 export const toggleDarkMode = () => {
-  // Toggle the 'dark' class on the HTML element
   document.documentElement.classList.toggle('dark');
 };
 
