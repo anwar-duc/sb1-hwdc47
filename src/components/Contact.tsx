@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 export const Contact = () => {
   const [formStatus, setFormStatus] = useState(""); // to handle success or error message
 
@@ -27,7 +29,7 @@ export const Contact = () => {
 
   return (
     <section id="contact" className="container mx-auto px-6 py-20">
-      <h2 className="text-3xl font-bold text-center mb-12">Contact Me</h2>
+      <h2 className="text-3xl font-bold text-center mb-12 text-teal-600">Contact Me</h2> {/* Updated title color */}
       <form
         onSubmit={handleSubmit}
         method="POST"
@@ -72,7 +74,7 @@ export const Contact = () => {
         </div>
         <button
           type="submit"
-          className="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+          className="w-full py-3 bg-teal-600 text-white rounded-lg hover:bg-teal-700" {/* Updated button color */}
         >
           Send Message
         </button>
@@ -86,4 +88,3 @@ export const Contact = () => {
     </section>
   );
 };
-
