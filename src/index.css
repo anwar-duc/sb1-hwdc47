@@ -9,9 +9,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for dark mode */
 }
+
 html {
   scroll-behavior: smooth;
+}
+
+/* Dark Mode Styles */
+html.dark {
+  background-color: #1a202c; /* Dark background for the whole page */
+  color: white; /* Light text on dark background */
 }
 
 /* Hero Section - Adjust for responsiveness */
@@ -56,5 +64,22 @@ section {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Additional Dark Mode Specific Styles */
+.dark .bg-white {
+  background-color: #2d3748; /* Dark background for elements with white background */
+}
+
+.dark .text-gray-800 {
+  color: #edf2f7; /* Light text color in dark mode */
+}
+
+.dark .text-gray-600 {
+  color: #cbd5e0; /* Lighter gray text for dark mode */
+}
+
+.dark .text-gray-700 {
+  color: #e2e8f0; /* Lighter gray text for dark mode */
 }
 
