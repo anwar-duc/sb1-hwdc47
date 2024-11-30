@@ -1,11 +1,11 @@
 export const WhatIDo = () => {
   return (
     <section id="what-i-do" className="py-20">
-      <h2 className="text-3xl font-bold text-center mb-12">What I Do</h2>
+      <h2 className="text-3xl font-bold text-center mb-12 text-teal-600">What I Do</h2> {/* Updated title color */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="text-center">
-          <div className="text-6xl text-blue-600 mb-4">
-            🔍 {/* Emoji color set to blue */}
+          <div className="text-6xl text-teal-500 mb-4"> {/* Updated emoji color */}
+            🔍
           </div>
           <h3 className="text-xl font-semibold">Data Analysis</h3>
           <p className="mt-2">
@@ -14,8 +14,8 @@ export const WhatIDo = () => {
         </div>
         
         <div className="text-center">
-          <div className="text-6xl text-blue-600 mb-4">
-            💻 {/* Emoji color set to blue */}
+          <div className="text-6xl text-teal-500 mb-4"> {/* Updated emoji color */}
+            💻
           </div>
           <h3 className="text-xl font-semibold">Web Development</h3>
           <p className="mt-2">
@@ -24,8 +24,8 @@ export const WhatIDo = () => {
         </div>
         
         <div className="text-center">
-          <div className="text-6xl text-blue-600 mb-4">
-            🧑‍💼 {/* Emoji color set to blue */}
+          <div className="text-6xl text-teal-500 mb-4"> {/* Updated emoji color */}
+            🧑‍💼
           </div>
           <h3 className="text-xl font-semibold">Consulting</h3>
           <p className="mt-2">
