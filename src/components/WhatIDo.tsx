@@ -1,24 +1,32 @@
-import React from 'react';
-
 export const WhatIDo = () => {
   return (
-    <div className="container mx-auto px-6 py-20">
+    <section id="what-i-do" className="py-20">
       <h2 className="text-3xl font-bold text-center mb-12">What I Do</h2>
-      <div className="grid md:grid-cols-3 gap-8">
-        <div className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-2xl transition">
-          <h3 className="text-xl font-semibold mb-4">Business Intelligence</h3>
-          <p>Transforming raw data into actionable insights to support decision-making.</p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="text-center">
+          <div className="text-6xl text-blue-600 mb-4">
+            🔍 {/* Make this emoji blue */}
+          </div>
+          <h3 className="text-xl font-semibold">Data Analysis</h3>
+          <p className="mt-2">I analyze data to help businesses make informed decisions.</p>
         </div>
-        <div className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-2xl transition">
-          <h3 className="text-xl font-semibold mb-4">Web Development</h3>
-          <p>Building responsive, interactive web apps with modern frameworks.</p>
+        
+        <div className="text-center">
+          <div className="text-6xl text-blue-600 mb-4">
+            💻 {/* Make this emoji blue */}
+          </div>
+          <h3 className="text-xl font-semibold">Web Development</h3>
+          <p className="mt-2">I build websites and web apps that are fast and responsive.</p>
         </div>
-        <div className="bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-2xl transition">
-          <h3 className="text-xl font-semibold mb-4">Leadership</h3>
-          <p>Guiding teams and fostering collaboration to achieve collective goals.</p>
+        
+        <div className="text-center">
+          <div className="text-6xl text-blue-600 mb-4">
+            🧑‍💼 {/* Make this emoji blue */}
+          </div>
+          <h3 className="text-xl font-semibold">Consulting</h3>
+          <p className="mt-2">I provide business and technical consulting to help companies grow.</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
-
