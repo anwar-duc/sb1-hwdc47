@@ -10,12 +10,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 html {
   scroll-behavior: smooth;
 }
 
-/* Existing animation */
+/* Hero Section - Adjust for responsiveness */
+@media screen and (max-width: 768px) {
+  .hero-container {
+    padding: 20px 15px;
+  }
+  .hero-heading {
+    font-size: 3rem; /* Increase font size for better visibility */
+  }
+  .hero-subheading {
+    font-size: 1.5rem; /* Adjust subheading size */
+  }
+}
+
+/* Emoji Color Styling for "What I Do" section */
+.emoji {
+  color: #4F46E5; /* Set to match the site's color */
+  font-size: 1.5rem; /* Adjust size */
+}
+
+/* Section Spacing */
+section {
+  margin-bottom: 4rem;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+/* Animation for fade-in and slide-up effect */
 .animate-fade-in-slide-up {
   animation: fadeInSlideUp 1s ease;
 }
@@ -29,49 +56,5 @@ html {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-/* New animations */
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade-in-delay {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes scale-up {
-  from {
-    transform: scale(0.8);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.animate-fade-in {
-  animation: fade-in 0.8s ease-out;
-}
-
-.animate-fade-in-delay {
-  animation: fade-in-delay 1s ease-out;
-}
-
-.animate-scale-up {
-  animation: scale-up 0.8s ease-out;
 }
 
