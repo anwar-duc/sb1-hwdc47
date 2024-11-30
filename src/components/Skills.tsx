@@ -10,7 +10,6 @@ export const Skills = () => {
             <h3 className="font-bold mb-4 text-gray-700">Data Analysis</h3>
             <ul className="space-y-2 text-left text-gray-600">
               <li>• Excel</li>
-              <li>• Power BI</li>
               <li>• Python</li>
               <li>• SSIS</li>
               <li>• SQL</li>
