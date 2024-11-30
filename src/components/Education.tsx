@@ -6,10 +6,10 @@ import esenLogo from '../assets/esen.png';
 export const Education = () => {
   return (
     <div className="container mx-auto px-6 py-20">
-      <h2 className="text-3xl font-bold mb-12 text-center">Education</h2>
+      <h2 className="text-3xl font-bold mb-12 text-center text-teal-600">Education</h2> {/* Updated title color */}
       <div className="grid md:grid-cols-2 gap-8">
         {/* First Education: Higher School of Digital Economy (Master's) */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all">
           <div className="flex items-center mb-4">
             {/* ESEN Logo */}
             <div className="mr-4">
@@ -26,7 +26,7 @@ export const Education = () => {
         </div>
         
         {/* Second Education: Higher School of Digital Economy (Bachelor's) */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all">
           <div className="flex items-center mb-4">
             {/* ESEN Logo */}
             <div className="mr-4">
