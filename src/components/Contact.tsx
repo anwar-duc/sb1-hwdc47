@@ -5,7 +5,7 @@ export const Contact = () => {
     <div className="container mx-auto px-6 py-20 bg-gray-100 rounded-lg">
       <h2 className="text-3xl font-bold text-center mb-12">Get in Touch</h2>
       <form
-        action="https://formspree.io/f/{your_form_id}" // Replace with your form service URL
+        action="https://formspree.io/f/mwpkwrag}" // Replace with your form service URL
         method="POST"
         className="max-w-xl mx-auto space-y-6"
       >
