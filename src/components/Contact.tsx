@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 export const Contact = () => {
   const [formStatus, setFormStatus] = useState(""); // to handle success or error message
 
