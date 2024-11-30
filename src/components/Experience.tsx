@@ -4,16 +4,33 @@ import React from 'react';
 import elamouriLogo from '../assets/elamouri.png';
 import isieLogo from '../assets/isie.png';
 import dclitechLogo from '../assets/dclitech.png';
+import lacroixLogo from '../assets/lacroix.png'; // Imported Lacroix logo
 
 export const Experience = () => {
   return (
     <div className="container mx-auto px-6 py-20">
-      <h2 className="text-3xl font-bold mb-12 text-center">Professional Experience</h2>
+      <h2 className="text-3xl font-bold mb-12 text-center text-teal-600">Professional Experience</h2> {/* Updated color to match the hero section */}
       <div className="grid md:grid-cols-2 gap-8">
-        {/* Experience: Institut El Amouri */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
+        {/* Lacroix Group - Data Analyst */}
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all">
           <div className="flex items-center mb-4">
-            {/* Logo */}
+            <div className="mr-4">
+              <img src={lacroixLogo} alt="Lacroix Group Logo" className="w-16 h-16 object-contain" />
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-1">Lacroix Group</h3>
+              <p className="text-gray-600">Data Analyst | January 2024 – June 2024</p>
+            </div>
+          </div>
+          <ul className="space-y-2 text-gray-700">
+            <li>• Designed and developed monitoring tools using Power BI and Python.</li>
+            <li>• Built a React JS interface for real-time dashboard integration.</li>
+          </ul>
+        </div>
+
+        {/* Institut El Amouri */}
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all">
+          <div className="flex items-center mb-4">
             <div className="mr-4">
               <img src={elamouriLogo} alt="Institut El Amouri Logo" className="w-16 h-16 object-contain" />
             </div>
@@ -28,10 +45,9 @@ export const Experience = () => {
           </ul>
         </div>
 
-        {/* Experience: ISIE */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
+        {/* ISIE */}
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all">
           <div className="flex items-center mb-4">
-            {/* Logo */}
             <div className="mr-4">
               <img src={isieLogo} alt="ISIE Logo" className="w-16 h-16 object-contain" />
             </div>
@@ -46,10 +62,9 @@ export const Experience = () => {
           </ul>
         </div>
 
-        {/* Experience: Declitech */}
-        <div className="bg-white p-6 rounded-lg shadow-md">
+        {/* DecliTech */}
+        <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all">
           <div className="flex items-center mb-4">
-            {/* Logo */}
             <div className="mr-4">
               <img src={dclitechLogo} alt="DecliTech Logo" className="w-16 h-16 object-contain" />
             </div>
